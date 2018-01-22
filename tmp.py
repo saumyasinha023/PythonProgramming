@@ -1,33 +1,23 @@
-import time
+class Solution():
+    def findMinHeightTrees(self, n, edges):
+        if n == 1: return [0]
+        adj = [set() for _ in range(n)]
+        for i, j in edges:
+            adj[i].add(j)
+            adj[j].add(i)
 
-num = 1
-den = 97
-graph = {}
+        leaves = [i for i in range(n) if len(adj[i]) == 1]
+
+        while n > 2:
+            n -= len(leaves)
+            newLeaves = []
+            for i in leaves:
+                j = adj[i].pop()
+                adj[j].remove(i)
+                if len(adj[j]) == 1: newLeaves.append(j)
+            leaves = newLeaves
+        return leaves
 
 
-def calculate(num, den):
-    count = 0
-    while True:
-        count += 1
-        rem = num % den
-        if rem in graph:
-
-            return (len(graph), count)
-        elif rem == 0:
-            return 0, count
-        else:
-            graph[rem] = 1
-            num = rem * 10
-
-
-maxim = 0
-start = time.time()
-steps = 0
-for i in range(1, 10000):
-    for j in range(1, 10000):
-        maxim = max(maxim, calculate(i, j)[0])
-        steps = steps + calculate(i, j)[1]
-end = time.time()
-print(steps)
-print(maxim)
-print(end - start)
+S=Solution()
+print(S.findMinHeightTrees(n=7,edges = [[0, 3], [1, 3], [2, 3], [4, 3], [5, 4], [2,6]]))

@@ -9,4 +9,4 @@ class Solution:
 
 
 S = Solution()
-print(S.uniquePaths(3, 3))
+print(S.uniquePaths(3, 2))

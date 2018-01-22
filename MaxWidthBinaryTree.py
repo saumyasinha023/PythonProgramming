@@ -14,48 +14,22 @@ root.left.right = TreeNode(3)
 root.right.right = TreeNode(9)
 
 
-class Solution(object):
-    def counter(self, current):
-        arr = []
-        i, j = 0, len(current) - 1
-        for vals in current:
-            arr.append(vals.val)
+class Solution():
 
-        print(arr)
-        if arr[i] is None:
-            while arr[i] == None:
-                i += 1
-        if arr[j] is None:
-            while arr[j] == None:
-                j -= 1
-
-        return (j - i + 1)
 
     def widthOfBinaryTree(self, root):
-        if root is None:
-            return 0
+        queue = [(root, 0, 0)]
+        cur_depth = left = ans = 0
+        for node, depth, pos in queue:
+            if node:
+                queue.append((node.left, depth + 1, pos * 2))
+                queue.append((node.right, depth + 1, pos * 2 + 1))
+                if cur_depth != depth:
+                    cur_depth = depth
+                    left = pos
+                ans = max(pos - left + 1, ans)
 
-        count, tcount = 0, 0
-        result, current, level = [], [root], 1
-        while current:
-            next_level, vals = [], []
-            for node in current:
-                vals.append(node.val)
-
-                if node.left:
-                    next_level.append(node.left)
-                else:
-                    node.left=TreeNode(None)
-                    next_level.append(node.left)
-                if node.right:
-                    next_level.append(node.right)
-                else:
-                    node.right=TreeNode(None)
-                    next_level.append(node.right)
-            tcount = self.counter(current)
-            count = max(tcount, count)
-            current = next_level
-        return count
+        return ans
 
 
 S = Solution()
