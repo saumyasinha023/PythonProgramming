@@ -32,4 +32,4 @@ class Solution:
 
 
 S = Solution()
-print(S.letterCombinations('234'))
+print(S.letterCombinations('23'))
