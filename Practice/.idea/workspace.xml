@@ -1,30 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e9b3bb9-2262-4d56-a648-9d79b91e7ab3" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Matrix/QuadTree.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Miscellaneous/AstroidCollision.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Miscellaneous/MergeIntervalsAND.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Miscellaneous/MergeIntervalsOR.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Miscellaneous/MoveZeroes.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Miscellaneous/RotatedArrayBinarySearch.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Miscellaneous/WeightedRandomGenerator.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Recursion/MaxSumOfNonAdjElements.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Recursion/PermutationOfArraysOfArray.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Stacks/DelimiterMatching.py" />
+    <list default="true" id="4e9b3bb9-2262-4d56-a648-9d79b91e7ab3" name="Default" comment="added new algorithms">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/AddTwoNumbers.py" afterPath="$PROJECT_DIR$/LinkedLists/AddTwoNumbers.py" />
-      <change beforePath="$PROJECT_DIR$/AllAnagramsInString.py" afterPath="$PROJECT_DIR$/Strings/AllAnagramsInString.py" />
-      <change beforePath="$PROJECT_DIR$/Kreverselinkedlist.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/LinkedListCycle.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/MergeSortedLinkedLists.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ReverseLinkedList.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/TopKFrequent.py" afterPath="$PROJECT_DIR$/Miscellaneous/TopKFrequent.py" />
-      <change beforePath="$PROJECT_DIR$/TopKFrequentWords.py" afterPath="$PROJECT_DIR$/Miscellaneous/TopKFrequentWords.py" />
-      <change beforePath="$PROJECT_DIR$/bfs.py" afterPath="$PROJECT_DIR$/Tree/bfs.py" />
-      <change beforePath="$PROJECT_DIR$/dfs.py" afterPath="$PROJECT_DIR$/Tree/dfs.py" />
-      <change beforePath="$PROJECT_DIR$/flattenNestedArray.py" afterPath="$PROJECT_DIR$/Miscellaneous/flattenNestedArray.py" />
-      <change beforePath="$PROJECT_DIR$/zigzag_tree_reversal.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -67,7 +45,7 @@
     <SUITE FILE_PATH="coverage/Practice$String_compression.coverage" NAME="String_compression Coverage Results" MODIFIED="1518479831649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Quid" />
     <SUITE FILE_PATH="coverage/Practice$LongestPalindromicSubstring.coverage" NAME="LongestPalindromicSubstring Coverage Results" MODIFIED="1519936883813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Strings" />
     <SUITE FILE_PATH="coverage/Practice$ValidateIP.coverage" NAME="ValidateIP Coverage Results" MODIFIED="1519954607779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Strings" />
-    <SUITE FILE_PATH="coverage/Practice$MergeIntervalsAND.coverage" NAME="MergeIntervalsAND Coverage Results" MODIFIED="1520374177664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Miscellaneous" />
+    <SUITE FILE_PATH="coverage/Practice$MergeIntervalsAND.coverage" NAME="MergeIntervalsAND Coverage Results" MODIFIED="1520374446559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Miscellaneous" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -75,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/Miscellaneous/MergeIntervalsOR.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+              <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -84,8 +62,8 @@
       <file leaf-file-name="MergeIntervalsAND.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Miscellaneous/MergeIntervalsAND.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+            <state relative-caret-position="270">
+              <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -174,7 +152,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -188,15 +165,11 @@
               <item name="Practice" type="462c0819:PsiDirectoryNode" />
               <item name="Miscellaneous" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="Tree" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -394,7 +367,7 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27421555" sideWeight="0.20347223" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26875854" sideWeight="0.7965278" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26875854" sideWeight="0.7965278" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -732,7 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -740,7 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -748,7 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -854,15 +824,15 @@
     <entry file="file://$PROJECT_DIR$/Miscellaneous/MergeIntervalsOR.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Miscellaneous/MergeIntervalsAND.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        <state relative-caret-position="270">
+          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
           <folding />
         </state>
       </provider>
