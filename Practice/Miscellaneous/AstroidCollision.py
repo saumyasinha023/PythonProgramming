@@ -15,4 +15,4 @@ class Solution():
 
 
 S = Solution()
-print(S.astroidCollision([5, 10, -5]))
+print(S.astroidCollision([-5, -10, 5]))

@@ -29,3 +29,26 @@ class Solution:
 
 S=Solution()
 print(S.reverseList(first).next.val)
+
+
+def t2Sum(self, A, B):
+    return self.helper(A, B, 0)
+
+
+def helper(self, root, tsum, bal):
+    if root is None:
+        return 0
+
+    if bal > tsum:
+        return 0
+    if bal == tsum:
+        return 1
+
+    bal = self.helper(root.left, tsum, bal)
+    if bal<sum:
+        bal += tsum
+        return bal
+    bal = self.helper(root.right, tsum, bal)
+    if bal<sum:
+        bal += tsum
+        return bal

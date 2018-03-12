@@ -10,6 +10,7 @@ class Solution():
             self.weightSum += w[each]
 
     def randomGenerator(self, w):
+        print(self.weightSum)
         sum = 0
         randInt = random.randint(1, self.weightSum)
         for each in w:
@@ -19,5 +20,5 @@ class Solution():
 
 
 S = Solution()
-S.preProcessor(w={'A': 1.0, 'B': 1.0, 'C': 1.0})
-print(S.randomGenerator(w={'A': 1.0, 'B': 1.0, 'C': 1.0}))
+S.preProcessor(w={'A': 1.0, 'B': 1.0, 'C': 3.0})
+print(S.randomGenerator(w={'A': 1.0, 'B': 1.0, 'C': 3.0}))

@@ -9,6 +9,8 @@ first.next = Node(2)
 first.next.next = Node(3)
 first.next.next.next = Node(4)
 first.next.next.next.next = Node(5)
+first.next.next.next.next.next = Node(6)
+first.next.next.next.next.next.next = Node(7)
 
 
 # print(first.val)
